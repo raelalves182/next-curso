@@ -25,3 +25,44 @@ a {
   padding: 24px 16px;
   list-style: none;
 }
+
+.container {
+  padding: 0 16px;
+  margin: 0 16px;
+}
+
+.imc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 16px;
+
+  label,
+  p {
+    font-size: 20px;
+  }
+
+  input {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 2px solid rebeccapurple;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rebeccapurple;
+    color: white;
+    transition: all .3s ease-out;
+    outline: none;
+    border: none;
+    display: block;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
